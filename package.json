@@ -1,0 +1,17 @@
+{
+  "name": "es6-transfrom-es5",
+  "version": "1.0.0",
+  "description": "重学es6，，学习es6如何转es5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:babel": "npx babel src --watch --out-dir lib"
+  },
+  "author": "zhangxinyong",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7"
+  }
+}
