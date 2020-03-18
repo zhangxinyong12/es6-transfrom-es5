@@ -22,7 +22,8 @@ $ npx babel example.js --out-file compiled.js
 $ npx babel example.js -o compiled.js
 
 # 整个目录转码
-# --out-dir 或 -d 参数指定输出目录
+# --out-dir 或 -d 参数指定输出目录 
+# --watch 实现代码自动更新转化
 $ npx babel src --out-dir lib
 # 或者
 $ npx babel src -d lib
