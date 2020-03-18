@@ -5,9 +5,7 @@ const add = (a, b = 20) => {
 };
 
 for (let i = 0; i < 20; i++) {
-    ((n) => {
-        setTimeout(() => {
-            console.log(n);
-        }, 1000 * n)
-    })(i)
+    setTimeout(() => {
+        console.log(i);
+    }, 1000 * i)
 }
